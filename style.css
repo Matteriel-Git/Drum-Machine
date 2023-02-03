@@ -1,15 +1,23 @@
+body {
+  background-color: rgba(24, 24, 24, 0.952);
+}
+
 .drum-pad {
   border: 2px solid #333;
-  border-radius: 4px;
+  border-radius: 30px;
   height: 100px;
   width: 100px;
   text-align: center;
-  
+  background-color: rgb(219, 24, 193);
+  color: rgb(252, 253, 253);
 }
 
 .container {
   width: 200px;
-
+  background-color: rgb(219, 24, 193);
+  color:  white;
+  border-radius: 30px;
+  
 }
 
 .card-body {
@@ -21,8 +29,8 @@
 
 #drum-0 {
   position: fixed;
-  top: 100px;
-  left: 250px;
+  top: 108px;
+  left: 257px;
 }
 
 #drum-1 {
@@ -79,4 +87,18 @@
   top: 348px;
   left: 500px;
   
+}
+
+#drum-0, #drum-1, #drum-2, #drum-3, #drum-4, #drum-5, #drum-6, #drum-7, #drum-8 {
+  transition: ease-in-out all 0.1s;
+  transform: scale(1);
+}
+
+#drum-0:active, #drum-1:active, #drum-2:active, #drum-3:active, #drum-4:active, #drum-5:active, #drum-6:active, #drum-7:active, #drum-8:active {
+  transform: scale(1.4);
+}
+
+#dj-booth {
+  width: 100%;
+  opacity: 100%;
 }

@@ -1,21 +1,25 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - Build a drum machine</title>
-  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Drum Machine</title>
 
 </head>
+
 <body>
-<!-- partial:index.partial.html -->
-<button class="container" id="drum-machine">
+
+
+  <button class="container" id="drum-machine">
   <div class="card">
     <div class="card-body">
     <div class="text-center" id="display">nothing yet to display</div>
     </div>
    
   </div>
-  
+
     <button class="drum-pad btn btn-block btn-primary m-3" id="drum-0" onclick="play('Q')">
   <audio class="clip" id="Q" src="https://s3.amazonaws.com/freecodecamp/drums/Heater-1.mp3"></audio>
   Q</button>
@@ -51,17 +55,28 @@
 <button class="drum-pad btn btn-block btn-primary m-2" id="drum-8" onclick="play('C')">
   <audio class="clip" id="C" src="https://s3.amazonaws.com/freecodecamp/drums/Cev_H2.mp3"></audio>
   C</button>
+
+</div>
+</div>
+
+
+<img src="https://www.sweetwater.com/insync/media/2017/11/DJSetups-1050x550.jpg" id="dj-booth" alt="DJ booth">
+
+<!--<img src="https://media1.giphy.com/media/Z4ITmGFsXV19C/giphy.gif?cid=ecf05e47pafs7kma52ny500tw3nr4lsa78un9i280n01gkx6&rid=giphy.gif&ct=g" alt="dj trippy">
+-->
+
+</body>
+
+
+
+<script src="script.js"></script>
+
+</html>
+
+
   
 
  
              
 
-</div>
-</div>
-<!-- partial -->
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.2/js/bootstrap.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js'></script><script  src="./script.js"></script>
 
-</body>
-</html>
