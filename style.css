@@ -1,5 +1,8 @@
 body {
-  background-color: rgba(24, 24, 24, 0.952);
+  background-color: rgba(24, 24, 24, 0.925);
+  background-image: url("https://www.sweetwater.com/insync/media/2017/11/DJSetups-1050x550.jpg");
+  background-size: 100%;
+  background-blend-mode:difference;
 }
 
 .drum-pad {
@@ -92,13 +95,11 @@ body {
 #drum-0, #drum-1, #drum-2, #drum-3, #drum-4, #drum-5, #drum-6, #drum-7, #drum-8 {
   transition: ease-in-out all 0.1s;
   transform: scale(1);
+  cursor: pointer;
 }
 
 #drum-0:active, #drum-1:active, #drum-2:active, #drum-3:active, #drum-4:active, #drum-5:active, #drum-6:active, #drum-7:active, #drum-8:active {
   transform: scale(1.4);
-}
-
-#dj-booth {
-  width: 100%;
-  opacity: 100%;
+  background-color: rgb(11, 219, 11);
+  cursor: pointer;
 }

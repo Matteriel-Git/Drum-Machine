@@ -1,8 +1,7 @@
 
 
 function play(str) {
-  
-        
+    
         
         if (str==="q" || str==="Q") {
     document.getElementById('display').innerHTML = "Heater 1";
@@ -29,7 +28,7 @@ function play(str) {
         audio.play();
       };
 
-window.document.onkeyup = function(event) {
+ window.document.onkeyup = function(event) {
   let keystroke = event.key
   if (keystroke === "q" || keystroke === "Q") {
     play("Q");
