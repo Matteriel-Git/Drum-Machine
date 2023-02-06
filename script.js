@@ -1,8 +1,5 @@
-
-
 function play(str) {
-    
-        
+           
         if (str==="q" || str==="Q") {
     document.getElementById('display').innerHTML = "Heater 1";
   } else if (str==="w"||str==="W") {
@@ -23,7 +20,6 @@ function play(str) {
     document.getElementById('display').innerHTML = "Closed-HH";
   };
        
-  
         var audio = document.getElementById(str);
         audio.play();
       };
