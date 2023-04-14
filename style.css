@@ -5,7 +5,7 @@ body {
   background-blend-mode:difference;
 }
 
-.drum-pad {
+.drum-pad0, .drum-pad1, .drum-pad2, .drum-pad3, .drum-pad4, .drum-pad5, .drum-pad6, .drum-pad7, .drum-pad8 {
   border: 2px solid #333;
   border-radius: 30px;
   height: 100px;
@@ -92,13 +92,14 @@ body {
   
 }
 
-#drum-0, #drum-1, #drum-2, #drum-3, #drum-4, #drum-5, #drum-6, #drum-7, #drum-8 {
+button {
   transition: ease-in-out all 0.1s;
   transform: scale(1);
   cursor: pointer;
 }
 
-#drum-0:active, #drum-1:active, #drum-2:active, #drum-3:active, #drum-4:active, #drum-5:active, #drum-6:active, #drum-7:active, #drum-8:active {
+button:active, button.active {
+  transition: ease-in-out all 0.05s;
   transform: scale(1.4);
   background-color: rgb(11, 219, 11);
   cursor: pointer;
