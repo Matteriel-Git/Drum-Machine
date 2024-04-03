@@ -3,6 +3,7 @@ body {
   background-image: url("https://www.sweetwater.com/insync/media/2017/11/DJSetups-1050x550.jpg");
   background-size: 100%;
   background-blend-mode:difference;
+  position: fixed;
 }
 
 .drum-pad0, .drum-pad1, .drum-pad2, .drum-pad3, .drum-pad4, .drum-pad5, .drum-pad6, .drum-pad7, .drum-pad8 {
@@ -20,76 +21,65 @@ body {
   background-color: rgb(219, 24, 193);
   color:  white;
   border-radius: 30px;
-  
 }
 
 .card-body {
   width: 150px;
   text-align: centered;
-
-  
 }
 
 #drum-0 {
   position: fixed;
-  top: 108px;
-  left: 257px;
+  top: 11vh;
+  left: 27vh;
 }
 
 #drum-1 {
   position: fixed;
-  top: 108px;
-  left: 380px;
-  
+  top: 11vh;
+  left: 39.6vh;
 }
 
 #drum-2 {
   position: fixed;
-  top: 108px;
-  left: 500px;
-  
+  top: 11vh;
+  left: 52.2vh;
 }
 
 #drum-3 {
   position: fixed;
-  top: 228px;
-  left: 257px;
-  
+  top: 24vh;
+  left: 27vh;
 }
 
 #drum-4 {
   position: fixed;
-  top: 228px;
-  left: 380px;
-  
+  top: 24vh;
+  left: 39.6vh;
 }
 
 #drum-5 {
   position: fixed;
-  top: 228px;
-  left: 500px;
-  
+  top: 24vh;
+  left: 52.2vh;
 }
 
 #drum-6 {
   position: fixed;
-  top: 348px;
-  left: 257px;
-  
+  top: 37vh;
+  left: 27vh;
 }
 
 #drum-7 {
   position: fixed;
-  top: 348px;
-  left: 380px;
-  
+  top: 37vh;
+  left: 39.6vh;
 }
 
 #drum-8 {
   position: fixed;
-  top: 348px;
-  left: 500px;
-  
+  top: 37vh;
+  left: 52.2vh;
 }
 
 button {
