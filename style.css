@@ -9,11 +9,12 @@ body {
 .drum-pad0, .drum-pad1, .drum-pad2, .drum-pad3, .drum-pad4, .drum-pad5, .drum-pad6, .drum-pad7, .drum-pad8 {
   border: 2px solid #333;
   border-radius: 30px;
-  height: 100px;
-  width: 100px;
+  height: 10vh;
+  width: 10vh;
   text-align: center;
   background-color: rgb(219, 24, 193);
   color: rgb(252, 253, 253);
+  font-size: 2vh;
 }
 
 .container {
@@ -21,6 +22,9 @@ body {
   background-color: rgb(219, 24, 193);
   color:  white;
   border-radius: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Creates 3 equal columns */
+  grid-gap: 10px; /* Adjust the gap between cells */
 }
 
 .card-body {
